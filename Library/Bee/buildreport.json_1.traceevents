@@ -1,0 +1,525 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1722772574556667, "dur": 2801841, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772574556944, "dur": 3349, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772574560296, "dur": 28822, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772574589120, "dur": 317680, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772574906803, "dur": 2449931, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772577356738, "dur": 1768, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772577360372, "dur": 78, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1722772574719461, "dur": 158694, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1722772574720855, "dur": 69348, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1722772574855588, "dur": 6253, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1722772574861845, "dur": 16296, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1722772574862827, "dur": 14360, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1722772574884581, "dur": 1860, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1722772574883510, "dur": 2962, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772577360977, "dur": 1599, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1722772574957472, "dur":1022, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772574958503, "dur":59, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1722772574958586, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1722772574958605, "dur":419, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1722772574959074, "dur":835, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772574959909, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338128, "dur":104, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338232, "dur":91, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338323, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338330, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338371, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338375, "dur":62, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338437, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338462, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338481, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338485, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338504, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338508, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338520, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338523, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338538, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338541, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338554, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338571, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577338607, "dur":2209, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1722772574959978, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772574959979, "dur":4669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772574964648, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1722772574964830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772574971402, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1722772574974692, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1722772574974965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772574974976, "dur":4697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1722772574979750, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1722772574979862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772574979872, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1722772574983671, "dur":79057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route.exe" }}
+,{ "pid":12345, "tid":1, "ts":1722772575062734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575063028, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route.exe" }}
+,{ "pid":12345, "tid":1, "ts":1722772575065273, "dur":4345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575069627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575069644, "dur":5821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575075516, "dur":5834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575081355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575081365, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575084335, "dur":3699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575088040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575088054, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575090673, "dur":3079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575093758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575093771, "dur":9711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575103613, "dur":13750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575117373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575117384, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575120880, "dur":3350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575124236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575124247, "dur":17259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575141584, "dur":248679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575390270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575390314, "dur":48203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575438578, "dur":287287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575725878, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772575726021, "dur":62212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772575788297, "dur":311957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772576100264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772576100287, "dur":13853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772576114198, "dur":127804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772576242013, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772576242032, "dur":46891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772576288984, "dur":1043836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772577332829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722772577332845, "dur":5143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722772577338050, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1722772577338055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772574960358, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772574960359, "dur":4238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772574964597, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1722772574965066, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772574987801, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1722772574990180, "dur":5204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772574995390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772574995492, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772574996738, "dur":3482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575000227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772575000241, "dur":8175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575008469, "dur":3419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575011893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772575011907, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575013966, "dur":8205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575022179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772575022194, "dur":18369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575040611, "dur":463947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575504567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772575504583, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575506955, "dur":291306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575798270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772575798288, "dur":20007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772575818349, "dur":665855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772576484213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772576484231, "dur":33685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722772576518021, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1722772576518087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722772576518102, "dur":724686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1722772577242914, "dur":95197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772574960064, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772574960065, "dur":4526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772574964596, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1722772574965173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575006237, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1722772575007885, "dur":4463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575012353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575012365, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575014384, "dur":3306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575017695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575017704, "dur":12547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575030345, "dur":3506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575033859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575033877, "dur":12763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575046688, "dur":7418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575054111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575054123, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575056880, "dur":3059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575059944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575059956, "dur":4844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575064858, "dur":14513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575079377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575079388, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575085294, "dur":4637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575089944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575089972, "dur":7521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575097564, "dur":3758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575101351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575101364, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575104152, "dur":5044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575109208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575109229, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575114056, "dur":4840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575118901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575118912, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575125305, "dur":230271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575355585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772575355602, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772575357841, "dur":934444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772576292293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772576292310, "dur":46524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772576338922, "dur":839109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772577178044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722772577178083, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722772577181480, "dur":156632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772574960416, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772574960416, "dur":4119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772574964547, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1722772574965052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772574989142, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1722772574990308, "dur":6093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772574996407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772574996418, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772574997637, "dur":3070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575000737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575000749, "dur":10572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575011366, "dur":4104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575015475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575015485, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575018501, "dur":4108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575022614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575022625, "dur":17298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575039975, "dur":15936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575055917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575055929, "dur":8597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575064573, "dur":5370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575069951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575069965, "dur":5959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575075985, "dur":4909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575080901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575080913, "dur":7071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575088060, "dur":6255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575094321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575094331, "dur":8518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575102892, "dur":3357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575106257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575106275, "dur":4246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575110578, "dur":5012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575115595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575115607, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575123127, "dur":331925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575455062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575455079, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575457184, "dur":387176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575844370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772575844388, "dur":48013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772575892476, "dur":188774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772576081260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576081278, "dur":21871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772576103231, "dur":470121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772576573363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576573383, "dur":16391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722772576589842, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1722772576589908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576589922, "dur":23694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1722772576613701, "dur":2832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1722772576616544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576616564, "dur":5147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1722772576621781, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1722772576621972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576621989, "dur":7077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1722772576629183, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1722772576629269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576629289, "dur":8276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1722772576637669, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1722772576637851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576637869, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1722772576641854, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1722772576641925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576641937, "dur":17224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1722772576659317, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1722772576659401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576659414, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1722772576662134, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1722772576663111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576663126, "dur":4979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1722772576668179, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1722772576668252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576668268, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1722772576670696, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1722772576672456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722772576672474, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1722772576679175, "dur":658917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574959966, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574959966, "dur":4566, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574964547, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1722772574964559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574965988, "dur":3999, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1722772574969994, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1722772574970117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574970328, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1722772574973287, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1722772574973561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574973642, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1722772574975137, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1722772574975239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574976677, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1722772574981248, "dur":10331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772574991585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772574991680, "dur":5577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772574997314, "dur":3546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575000866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575000877, "dur":11031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575011963, "dur":3176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575015145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575015156, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575017909, "dur":3921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575021837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575021849, "dur":13388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575035294, "dur":3971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575039274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575039342, "dur":9131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575048520, "dur":5618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575054144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575054161, "dur":4624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575058840, "dur":3887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575062792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575062816, "dur":11597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575074491, "dur":3326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575077824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575077838, "dur":7357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575085284, "dur":4738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575090125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575090135, "dur":8209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575098401, "dur":8520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575106929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575106975, "dur":7023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575114054, "dur":4194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575118254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575118264, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575123305, "dur":264234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575387547, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772575387563, "dur":51353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772575438991, "dur":643455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772576082453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576082468, "dur":21680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772576104210, "dur":470816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772576575034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576575051, "dur":16852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722772576591967, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1722772576592027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576592040, "dur":19741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1722772576611851, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1722772576612055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576612070, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1722772576614364, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576614453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576614468, "dur":7771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576622311, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576622382, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576622397, "dur":15156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576637647, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576637734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576637748, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576641642, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576641813, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576641833, "dur":16637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576658743, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576658836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576658853, "dur":5016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1722772576663933, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1722772576664004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576664017, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1722772576668923, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1722772576669032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722772576669044, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1722772576673472, "dur":664653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574960296, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574960296, "dur":4247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574964550, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1722772574964975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574971034, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1722772574973434, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1722772574973547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574973630, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1722772574975684, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1722772574975792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574976820, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1722772574978171, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1722772574978300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574978311, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1722772574981403, "dur":1603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1722772574983011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574983020, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1722772574985450, "dur":4481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772574989936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772574992232, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772574993564, "dur":12866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575006435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575006446, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575009398, "dur":4638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575014042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575014054, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575015157, "dur":3600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575018762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575018772, "dur":27273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575046100, "dur":4026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575050131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575050144, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575051401, "dur":3817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575055223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575055234, "dur":8053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575063345, "dur":3270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575066621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575066634, "dur":13696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575080390, "dur":9561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575089956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575089969, "dur":8244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575098296, "dur":3679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575101981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575101992, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575104378, "dur":4640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575109031, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575109058, "dur":9174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575118351, "dur":4905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575123262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575123276, "dur":22927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575146398, "dur":640229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575786667, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575786686, "dur":14658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575801399, "dur":125489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575926980, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772575927018, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772575929619, "dur":403141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772576332770, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772576332823, "dur":59297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772576392181, "dur":180716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772576572910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772576572931, "dur":7983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722772576580992, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1722772576581069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722772576588840, "dur":87215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1722772576676140, "dur":661948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772574960056, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772574960057, "dur":4482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772574964547, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1722772574965001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772574973722, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1722772574975229, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1722772574976595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772574977048, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1722772574978094, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1722772574978392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772574978404, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1722772574981325, "dur":47019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575028352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575028418, "dur":17654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575046126, "dur":6496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575052627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575052640, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575053856, "dur":5165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575059027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575059039, "dur":13130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575072217, "dur":7223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575079454, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575079482, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575084370, "dur":4758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575089139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575089161, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575091799, "dur":5045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575096856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575096877, "dur":5631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575102559, "dur":6278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575108843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575108854, "dur":6479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575115383, "dur":4113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575119501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575119512, "dur":8378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575127956, "dur":230265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575358227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575358242, "dur":31050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575389350, "dur":198742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575588102, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575588126, "dur":49904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575638088, "dur":178005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575816101, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772575816121, "dur":73979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772575890160, "dur":545741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772576435911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772576435928, "dur":38866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722772576474854, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1722772576474921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772576474995, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1722772576476873, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1722772576476926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772576476937, "dur":7997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1722772576484997, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1722772576485055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772576485067, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1722772576486423, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1722772576486487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772576486499, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1722772576488795, "dur":29649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1722772576518451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722772576518463, "dur":705377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1722772577223899, "dur":114191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574959768, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574959997, "dur":4541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574964546, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1722772574964980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574973859, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1722772574975262, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1722772574975613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574975871, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1722772574978373, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1722772574978491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574978500, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1722772574979876, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772574980773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574982832, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772574984674, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1722772574984787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772574985111, "dur":28320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1722772575013486, "dur":3988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575017480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575017493, "dur":10835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575028386, "dur":8056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575036453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575036474, "dur":11398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575047929, "dur":6979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575054913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575054924, "dur":6983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575061966, "dur":4690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575066662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575066674, "dur":8160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575074888, "dur":3657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575078552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575078567, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575084331, "dur":5186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575089522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575089532, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575093447, "dur":4393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575097848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575097863, "dur":5458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575103382, "dur":2874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575106262, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575106281, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575110557, "dur":4875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575115439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575115457, "dur":5132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575120641, "dur":12127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575132776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575132791, "dur":13882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575146745, "dur":386119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575532873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575532890, "dur":28556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575561504, "dur":246692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575808205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772575808223, "dur":7604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772575815898, "dur":659249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772576475154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772576475168, "dur":39008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722772576514236, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1722772576514297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722772576514310, "dur":518157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bszal/OneDrive/Desktop/BlakeSzalapski_GE1_FinalProject/Vital Route_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1722772577032583, "dur":305512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722772577343225, "dur":5714, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1722772577362986, "dur": 11781, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1722772577360321, "dur": 14521, "ph": "X", "name": "Write chrome-trace events", "args": {} },
